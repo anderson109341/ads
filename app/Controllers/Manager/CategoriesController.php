@@ -9,6 +9,10 @@ class CategoriesController extends BaseController
 {
     public function index()
     {
-        //
+        $data = [
+            'title' => 'Categories',
+        ];
+
+        return view('Manager/Categories/index', $data);
     }
 }

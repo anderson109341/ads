@@ -1,10 +1,10 @@
 <?php echo $this->extend('Manager/Layout/main'); ?>
 
-<!-- <?php echo $this->section('title'); ?>
+<?php echo $this->section('title'); ?>
 
 <?php echo $title ?? ''; ?>
 
-<?php echo $this->endSection(); ?> -->
+<?php echo $this->endSection(); ?>
 
 <?php echo $this->section('styles'); ?>
 
