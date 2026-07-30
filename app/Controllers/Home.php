@@ -9,8 +9,4 @@ class Home extends BaseController
         return view('welcome_message');
     }
 
-    public function teste(): string
-    {
-        return view('teste');
-    }
 }
